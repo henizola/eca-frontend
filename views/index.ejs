@@ -11,7 +11,34 @@
     <div class="l-home-hero js-header-carousel" data-carousel-autoplay="true" tabindex="0"
       data-flickity='{ "cellAlign": "left", "autoPlay": true }'>
 
-      <div class="l-home-hero__cell js-header-carousel-cell">
+
+
+
+      <% 
+                    
+      for (item of sliders) { %>
+
+        <div class="l-home-hero__cell js-header-carousel-cell">
+          <div class="l-home-hero__media">
+            <img alt="" srcset="http://localhost:9000/<%= item.bannerImage %>" sizes="(min-width: 980px) 100vw,
+            100vw">
+          </div>
+          <div class="l-home-hero__content">
+            <div class="l-home-hero__content-intro">
+              <h2 class="u-type-h1 u-type-shadowed heading--l "> <%= item.titleEn %></h2>
+  
+            </div>
+            <div class="l-home-hero__content-cta"> <a href="newsdtl.html" class="btn btn--arrow">
+              Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- <%= item.size %> -->
+
+        <% } %>
+
+
+      <!-- <div class="l-home-hero__cell js-header-carousel-cell">
         <div class="l-home-hero__media">
           <img alt="" srcset="img/banner/1.jpg" sizes="(min-width: 980px) 100vw,
           100vw">
@@ -56,7 +83,7 @@
           <div class="l-home-hero__content-cta"> <a href="newsdtl.html" class="btn btn--arrow">Read More</a>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
 

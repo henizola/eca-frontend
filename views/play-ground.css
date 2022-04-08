@@ -525,7 +525,7 @@ ul.nav.nav-tabs > li a.active {
 }
 
 a {
-  color: #000;
+  color: inherit !important;
 }
 
 .vacancy-table-1 {

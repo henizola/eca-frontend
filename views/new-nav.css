@@ -1,5 +1,5 @@
 .all {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow: hidden;
   position: relative;
   display: none;
@@ -11,14 +11,14 @@
   padding: 0 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .all a {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -26,7 +26,7 @@
   padding: 5px 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: fixed;
   top: 0px;
   background-color: #1b2930;
@@ -39,7 +39,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
   height: calc(100vh - 3rem);
   width: 100%;
@@ -52,7 +52,7 @@
   margin: 0;
   padding-top: 50px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -64,7 +64,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   max-width: 65rem;
   padding: 0 2rem;
   margin: 0 auto;
@@ -80,22 +80,22 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .all .nav-btn {
   -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,8 +103,8 @@
 
 .all .nav-links {
   -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
+  -ms-flex: 2;
+  flex: 2;
 }
 
 .all .log-sign {
@@ -112,14 +112,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .all .logo {
@@ -165,11 +165,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .all .nav-link {
@@ -186,11 +186,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -201,7 +201,7 @@
 
 .all .nav-link:hover > a {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .all .dropdown {
@@ -210,7 +210,7 @@
   left: 0;
   width: 10rem;
   -webkit-transform: translateY(10px);
-          transform: translateY(10px);
+  transform: translateY(10px);
   opacity: 0;
   pointer-events: none;
   -webkit-transition: 0.5s;
@@ -230,11 +230,11 @@
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -250,7 +250,7 @@
 
 .all .dropdown-link i {
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .all .arrow {
@@ -261,7 +261,7 @@
   left: 32px;
   background-color: #fff;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -282,7 +282,7 @@
   padding-left: 0.8rem;
   cursor: pointer;
   -webkit-transform: translateX(10px);
-          transform: translateX(10px);
+  transform: translateX(10px);
 }
 
 .all .dropdown.second .arrow {
@@ -293,22 +293,22 @@
 .all .nav-link:hover > .dropdown,
 .all .dropdown-link:hover > .dropdown {
   -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
+  transform: translate(0, 0);
   opacity: 1;
   pointer-events: auto;
 }
 
 .all .hamburger-menu-container {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: none;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .all .hamburger-menu {
@@ -318,11 +318,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .all .hamburger-menu div {
@@ -338,7 +338,7 @@
 
 .all .hamburger-menu div:before,
 .all .hamburger-menu div:after {
-  content: '';
+  content: "";
   position: absolute;
   width: inherit;
   height: inherit;
@@ -350,12 +350,12 @@
 
 .all .hamburger-menu div:before {
   -webkit-transform: translateY(-7px);
-          transform: translateY(-7px);
+  transform: translateY(-7px);
 }
 
 .all .hamburger-menu div:after {
   -webkit-transform: translateY(7px);
-          transform: translateY(7px);
+  transform: translateY(7px);
 }
 
 .all #check {
@@ -363,7 +363,7 @@
   top: 10px;
   right: 1.5rem;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   width: 2.5rem;
   height: 2.5rem;
   z-index: 90000;
@@ -372,39 +372,30 @@
   display: none;
 }
 
-.all #check:checked
-~ .hamburger-menu-container
-.hamburger-menu
-div {
+.all #check:checked ~ .hamburger-menu-container .hamburger-menu div {
   background-color: transparent;
 }
 
-.all #check:checked
-~ .hamburger-menu-container
-.hamburger-menu
-div:before {
+.all #check:checked ~ .hamburger-menu-container .hamburger-menu div:before {
   -webkit-transform: translateY(0) rotate(-45deg);
-          transform: translateY(0) rotate(-45deg);
+  transform: translateY(0) rotate(-45deg);
 }
 
-.all #check:checked
-~ .hamburger-menu-container
-.hamburger-menu
-div:after {
+.all #check:checked ~ .hamburger-menu-container .hamburger-menu div:after {
   -webkit-transform: translateY(0) rotate(45deg);
-          transform: translateY(0) rotate(45deg);
+  transform: translateY(0) rotate(45deg);
 }
 
 @-webkit-keyframes animation {
   from {
     opacity: 0;
     -webkit-transform: translateY(15px);
-            transform: translateY(15px);
+    transform: translateY(15px);
   }
   to {
     opacity: 1;
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 
@@ -412,12 +403,12 @@ div:after {
   from {
     opacity: 0;
     -webkit-transform: translateY(15px);
-            transform: translateY(15px);
+    transform: translateY(15px);
   }
   to {
     opacity: 1;
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 
@@ -439,47 +430,47 @@ div:after {
     background-color: #1b2930;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
     -webkit-transition: 0.65s;
     transition: 0.65s;
   }
   .all #check:checked ~ .nav-btn {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   .all #check:checked ~ .nav-btn .nav-link,
   .all #check:checked ~ .nav-btn .log-sign {
     -webkit-animation: animation 0.5s ease forwards var(--i);
-            animation: animation 0.5s ease forwards var(--i);
+    animation: animation 0.5s ease forwards var(--i);
   }
   .all .nav-links {
     -webkit-box-flex: initial;
-        -ms-flex: initial;
-            flex: initial;
+    -ms-flex: initial;
+    flex: initial;
     width: 100%;
   }
   .all .nav-links > ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .all .nav-link {
     width: 100%;
     opacity: 0;
     -webkit-transform: translateY(15px);
-            transform: translateY(15px);
+    transform: translateY(15px);
   }
   .all .nav-link > a {
     line-height: 1;
@@ -487,7 +478,7 @@ div:after {
   }
   .all .nav-link:hover > a {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     background-color: #b70021;
   }
   .all .dropdown,
@@ -496,7 +487,7 @@ div:after {
     top: initial;
     left: initial;
     -webkit-transform: initial;
-            transform: initial;
+    transform: initial;
     opacity: 1;
     pointer-events: auto;
     width: 100%;
@@ -511,7 +502,7 @@ div:after {
   .all .nav-link:hover > a > i,
   .all .dropdown-link:hover > a > i {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
   .all .dropdown-link > a {
     background-color: transparent;
@@ -522,10 +513,7 @@ div:after {
   .all .dropdown.second .dropdown-link > a {
     padding: 1.2rem 2rem 1.2rem 3rem;
   }
-  .all .dropdown.second
-.dropdown.second
-.dropdown-link
-> a {
+  .all .dropdown.second .dropdown.second .dropdown-link > a {
     padding: 1.2rem 2rem 1.2rem 4rem;
   }
   .all .dropdown-link:not(:nth-last-child(2)) {
@@ -536,7 +524,7 @@ div:after {
     background-color: #005274;
     left: 10%;
     -webkit-transform: scale(1.1) rotate(45deg);
-            transform: scale(1.1) rotate(45deg);
+    transform: scale(1.1) rotate(45deg);
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -555,7 +543,7 @@ div:after {
   .all .nav-link > a > i {
     font-size: 1.1rem;
     -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
     -webkit-transition: 0.7s;
     transition: 0.7s;
   }
@@ -566,16 +554,16 @@ div:after {
   }
   .all .log-sign {
     -webkit-box-flex: initial;
-        -ms-flex: initial;
-            flex: initial;
+    -ms-flex: initial;
+    flex: initial;
     width: 100%;
     padding: 1.5rem 1.9rem;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     opacity: 0;
     -webkit-transform: translateY(15px);
-            transform: translateY(15px);
+    transform: translateY(15px);
     margin-bottom: 50px;
   }
 }
@@ -586,3 +574,7 @@ div:after {
   }
 }
 /*# sourceMappingURL=new-nav.css.map */
+
+.social__media a {
+  color: inherit !important;
+}

@@ -356,8 +356,7 @@
               style="--i: 1.8s"
             >
               <a
-                href="/am"
-                class="btn transparent"
+              onclick="changeLn()" 
                 >En / አማ</a
               >
               <a href="#" class="btn solid"
@@ -395,7 +394,7 @@
             <div class="social__media">
              <a href="search " class='top-search'>Search  <svg aria-hidden="true" style='color:#005274;'focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></a>
 
-              <a href="/am">En / አማ</a>
+              <a onclick="changeLn()" >En / አማ</a>
 
               <svg aria-hidden="true" href='/about' focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
               <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" style='width:100%'></path></svg>
@@ -416,7 +415,7 @@
                     <a href="/about" > About Us</a>
                     <ul class="sub-menu">
                       <li>
-                        <a href="/about#message">	Message from the Director General</a>
+                        <a href="/about">	Message from the Director General</a>
                       </li>
                       <li>
                         <a href="/about#mission">	ECA Profile (Vision, Mission, Values)</a>
@@ -573,9 +572,7 @@
                       <li>
                         <a href="postal#reports"> Reports </a>
                       </li>
-                      <li>
-                        <a href="postal#jornals"> Journals </a>
-                      </li>
+                      
                       <li>
                         <a href="postal#statstics">Statistics</a>
                       </li>
@@ -593,6 +590,9 @@
                       
                       <li>
                         <a href="news#public-notice"> Public Notice</a>
+                      </li>
+                      <li>
+                        <a href="postal#jornals"> Journals </a>
                       </li>
                       <li>
                         <a href="news#events"> Events</a>
@@ -675,4 +675,18 @@
         </ul>
       </nav>
     </div>
+
+    <script>
+      function changeLn(event) {
+    if(window.location.href.includes('Am')){
+      // console.log(window.location.href.slice(1,window.location.href.length - 2));
+      location.pathname = window.location.pathname.slice(0,window.location.pathname.length - 2);
+    }
+    else{
+      location.pathname = window.location.pathname.concat('Am');
+    }
+
+     
+      }
+      </script>
   </div>
