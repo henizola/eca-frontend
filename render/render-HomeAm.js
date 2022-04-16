@@ -1,11 +1,11 @@
-const EcaBanner = require('../models/banners-model')
+const EcaBanner = require("../models/banners-model");
 
-const renderHomeAm =  async (req, res)  => {
-    const sliders = await EcaBanner.find( );
+const API = require("../api.js");
 
+const renderHomeAm = async (req, res) => {
+  const sliders = await EcaBanner.find();
 
-  
-    res.render("am",{ sliders: sliders });
-  }
+  res.render("am", { sliders: sliders, API: API });
+};
 
 module.exports = renderHomeAm;
