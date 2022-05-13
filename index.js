@@ -52,11 +52,8 @@ mongoose
   .then(() => console.log("Connected to MongoDb ..."))
   .catch((error) => console.log("could not connect to database" + error));
 
-app.use(express.static("uploads"));
-app.use(express.static("banners"));
-app.use(express.static("directives"));
-app.use(express.static("uploadgallery"));
-app.use(express.static("ads"));
+app.use(express.static("./banners"));
+app.use(express.static("./directives"));
 
 app.use(express.json());
 
@@ -69,10 +66,44 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", renderHome);
 app.get("/Am", renderHomeAm);
 
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 9001;
 
 app.get("/about", (req, res) => {
   res.render("about");
+});
+
+app.get("/get-bugs", (req, res) => {
+  res.send([
+    {
+      id: 1,
+      description: "Bug 1",
+      userId: 1,
+      resolved: true,
+    },
+    {
+      id: 2,
+      description: "Bug 2",
+      userId: 1,
+    },
+    {
+      id: 3,
+      description: "Bug 3",
+      userId: 2,
+    },
+    {
+      id: 4,
+      description: "Bug 4",
+    },
+  ]);
+});
+
+app.post("/get-bugs", (req, res) => {
+  res.send(req.body);
+});
+
+app.patch("/get-bugs/:index", (req, res) => {
+  id = req.params.index;
+  res.send({ id: id, resolved: req.body.resolved });
 });
 
 app.get("/resourceAm", rednderDirectivesAm);
