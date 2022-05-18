@@ -38,7 +38,7 @@
           <aside class="l-extra-sidebar-content"></aside>
         </div>
         <section class="l-content-w-sidebar__content " id='policy'>
-          <section class="l-content-w-sidebar__inner-content">
+          
             <div class="l-content l-content--integrated-real-estate">
               <!-- <h1 class="heading heading--l">REPORTS</h1> -->
 
@@ -48,122 +48,111 @@
             
                   <div class="l-content-grid l-content-grid--10-0 l-content-grid--introduction">
                     <div class="l-content-grid__col">
-                      <p class="intro intro--m intro--strong">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                    </div>
-                  </div> 
+                 
+                    
+                      <table class="table table-striped" style="    font-size: 1.6rem;
+                      line-height: 1.8;
+                      font-family: gothic;
+                      page-break-inside: avoid;
+                      overflow: hidden;">
+                        <thead>
+                          <tr>
+                        
+                            <th scope="col">Document Tile</th>
+                            <th scope="col">size</th>
+                           
+                          </tr>
+                        </thead>
+                        <tbody>
+  
+  
+  
+  
+  
+                          <% 
+                        
+                          for (item of policy) { %>
+          <tr >
     
-    
-                  <div class="l-content-grid l-content-grid--10-0 ">
-                    <div class="l-content-grid__col">
-                      <article class="text">
-                      <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    
-    </p>
-    </article>
-                    </div>
-                  </div> 
+                              <td> <a href="<%= API%><%= item.fileName %>" download style="color:black"> <%= item.name %></a> </td>
+              
+                              <td><%= item.size %> MB</td>
+                            </tr>
+                          <% } %>
                   
+  
+  
+                        </tbody>
+                      </table>
+  
+                    </div>
+                  </div> 
+    
+            
+              
                   
                 
                   
               </section>
-              <div class="l-content l-content--about-innovation" id='laws'>
+              <div class="hr" style="margin-top:0px"></div>
+              <section class="l-content-w-sidebar__inner-content"   >
+              <div class="l-content l-content--about-innovation" id='laws'style='padding-top:0!important;margin-top:0'>
 
                 <h1 class="heading heading--l">Laws</h1>
-    
                 <div class="l-content-grid l-content-grid--10-0 l-content-grid--introduction">
                   <div class="l-content-grid__col">
-                    <p class="intro intro--m intro--strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                </div>
-    
-                <section class="l-content-grid l-content-grid--10-0 l-content-grid--text">
-                  <div class="l-content-grid__col">
-                    <article class="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
-                    </article>
-                  </div>
-                </section>
-    
-                <div class="hr"></div>
-    
-                <section class="l-content-grid l-content-grid--10-0 l-content-grid--text">
-                  <div class="l-content-grid__col">
-                    <article class="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
-                    </article>
-                  </div>
-                </section>
-    
-    
-    
-    
-              </div> <div class="l-content l-content--about-innovation" id='regulations'>
-
-                <h1 class="heading heading--l">Regulations</h1>
-    
-                <div class="l-content-grid l-content-grid--10-0 l-content-grid--introduction">
-                  <div class="l-content-grid__col">
-                    <p class="intro intro--m intro--strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                </div>
-    
-                <section class="l-content-grid l-content-grid--10-0 l-content-grid--text">
-                  <div class="l-content-grid__col">
-                    <article class="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
-                    </article>
-                  </div>
-                </section>
-    
-                <div class="hr"></div>
-    
-                <section class="l-content-grid l-content-grid--10-0 l-content-grid--text">
-                  <div class="l-content-grid__col">
-                    <article class="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
-                      <div id="directives"></div>
-                    </article>
                
-                  </div>
+                  
+                    <table class="table table-striped" style="    font-size: 1.6rem;
+                    line-height: 1.8;
+                    font-family: gothic;
+                    page-break-inside: avoid;
+                    overflow: hidden;">
+                      <thead>
+                        <tr>
+                      
+                          <th scope="col">Document Tile</th>
+                          <th scope="col">size</th>
+                         
+                        </tr>
+                      </thead>
+                      <tbody>
+
+
+
+
+
+                        <% 
+                      
+                        for (item of law) { %>
+        <tr >
+  
+                            <td> <a href="<%= API%><%= item.fileName %>" download style="color:black"> <%= item.name %></a> </td>
+            
+                            <td><%= item.size %> MB</td>
+                          </tr>
+                        <% } %>
                 
+
+
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div> 
+                  </div>
                 </section>
     
+                <div class="hr" style="margin-top:0px;margin-bottom:0;"></div>
     
-    
-    
-              </div> <div class="l-content l-content--about-innovation" >
+               
 
+    
+               
+    
+           <div class="l-content l-content--about-innovation pb-0" >
+            <section class="l-content-w-sidebar__inner-content pb-0"  >
+              <div class="l-content l-content--about-innovation pb-0" id='regulations'>
                 <h1 class="heading heading--l">Directives</h1>
     
                 <div class="l-content-grid l-content-grid--12-0 l-content-grid--introduction">
@@ -198,27 +187,9 @@
 
 
                         <% 
-                        console.log('directives all overe here',directives)
+                      
                         for (item of directives) { %>
-       
-
-
-                          <!-- <div class="l-home-hero__cell js-header-carousel-cell">
-                            <div class="l-home-hero__media">
-                              <img alt="" srcset="<%= item.img %>" sizes="(min-width: 980px) 100vw,
-                              100vw">
-                            </div>
-                            <div class="l-home-hero__content">
-                              <div class="l-home-hero__content-intro">
-                                <h2 class="u-type-h1 u-type-shadowed heading--l "> The opening of the Telecommunications Market</h2>
-                    
-                              </div>
-                              <div class="l-home-hero__content-cta"> <a href="newsdtl.html" class="btn btn--arrow">Read More</a>
-                              </div>
-                            </div>
-                          </div> -->
-                
-                          <tr >
+        <tr >
   
                             <td> <a href="<%= API%><%= item.fileName %>" download style="color:black"> <%= item.name %></a> </td>
             
@@ -233,40 +204,15 @@
 
                   </div>
                 </div>
+                </div>
+    </section>
+               
     
-                <section class="l-content-grid l-content-grid--10-0 l-content-grid--text">
-                  <div class="l-content-grid__col">
-                    <article class="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
-                    </article>
-                  </div>
-                </section>
-    
-                <div class="hr"></div>
-    
-                <section class="l-content-grid l-content-grid--10-0 l-content-grid--text">
-                  <div class="l-content-grid__col">
-                    <article class="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
-                    </article>
-                  </div>
-                </section>
-    
-    
-    
-    
-              </div> <div class="l-content l-content--about-innovation" id='frameworks'>
-
+                <!-- <div class="hr"></div> -->
+<!--                
+                <div class="l-content l-content--about-innovation" id='frameworks'>
+                  <section class="l-content-w-sidebar__inner-content" >
+                    <div class="l-content l-content--about-innovation" >
                 <h1 class="heading heading--l">Frameworks</h1>
     
                 <div class="l-content-grid l-content-grid--10-0 l-content-grid--introduction">
@@ -279,22 +225,16 @@
                     </p>
                   </div>
                 </div>
+                </div>
+                </section></div>
+               
     
-                <section class="l-content-grid l-content-grid--10-0 l-content-grid--text">
-                  <div class="l-content-grid__col">
-                    <article class="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
-                    </article>
-                  </div>
-                </section>
+             
     
                 <div class="hr"></div>
-    
+                <div class="l-content l-content--about-innovation" id='frameworks'>
+                  <section class="l-content-w-sidebar__inner-content" >
+                    <div class="l-content l-content--about-innovation" >
                 <section class="l-content-grid l-content-grid--10-0 l-content-grid--text">
                   <div class="l-content-grid__col">
                     <article class="text">
@@ -307,7 +247,7 @@
                     </article>
                   </div>
                 </section>
-    
+    </div></section></div>
     
     
     
@@ -450,7 +390,7 @@
     
     
     
-              </div>
+              </div> -->
 <!--             
               <section class="l-content-grid l-content-grid--4-4-4">
                 <div class="l-content-grid__col">

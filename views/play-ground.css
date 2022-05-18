@@ -1175,3 +1175,10 @@ a {
     transform: translateY(15px);
   }
 }
+
+
+
+.leader__container {
+  height:250px!important;
+  border:2px solid red
+}
